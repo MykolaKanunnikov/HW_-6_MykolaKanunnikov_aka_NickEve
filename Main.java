@@ -17,7 +17,7 @@ public class Main {
         container.add(22);
 
         container.removeIf(i -> i % 3 == 0);
-        System.out.println("1. Only values divisible by 3: " + container);
+        System.out.println("1. Only values not divisible by 3: " + container);
 
         //Task 2
         List<String> fruits = new ArrayList<>();
